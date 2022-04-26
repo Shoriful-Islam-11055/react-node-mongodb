@@ -43,7 +43,7 @@ const Home = () => {
             <div>
               <Button onClick={() => handleUserDelete(user._id)}>Delete</Button>
 
-              <Link to={'/update/$(user.-id'}><Button className="ms-2">Update</Button></Link>
+              <Link to={`/update/${user._id}`}><Button className="ms-2">Update</Button></Link>
             </div>
           </p>
         ))}
